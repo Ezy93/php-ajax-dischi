@@ -2,7 +2,7 @@
     include __DIR__.'/../server/data.php'
 ?>
 
-<main>
+<main id="app">
     <?php foreach($albums as $album){ ?>
         <ul>
             <li>
@@ -15,7 +15,7 @@
                 <?= $album['author']  ?>
             </li>
             <li>
-            <?= $album['year']  ?>
+                <?= $album['year']  ?>
             </li>
         </ul>
     <?php } ?>
