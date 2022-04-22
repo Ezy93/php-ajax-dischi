@@ -23,13 +23,13 @@
     <title>php-ajax-dischi</title>
 </head>
 <body>
-    <?php include __DIR__.'/partials/header.php' ?>
-    <?php include __DIR__.'/partials/main.php' ?>
+    <?php include_once __DIR__.'/partials/header.php' ?>
+    <?php include_once __DIR__.'/partials/main.php' ?>
     
 
-    <!-- importato file js -->
-    <script src="js/script.js"></script>
     <!-- import di axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- importato file js -->
+    <script src="js/script.js"></script>
 </body>
 </html>
