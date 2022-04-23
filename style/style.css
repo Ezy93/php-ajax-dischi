@@ -1,9 +1,28 @@
-header{
+body{
+    background-color: #1e2d3b;
+}
+
+header,
+.card{
     background-color: #2e3a46;
 }
+
 
 div.my-logo{
     width: 80px;
     height: 65px;
+}
+
+div.my-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+div.card{
+    width: calc((100% / 5) - 1rem);
+}
+
+.my-text-card{
+    color: #76837f;
 }
 
